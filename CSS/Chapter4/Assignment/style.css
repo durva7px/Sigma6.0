@@ -9,6 +9,7 @@
 
 #box1:hover {
   width: 600px;
+  transition-duration: 1s;
 }
 
 /* Qs2. Using transform, move box2 200px to the right  & 
@@ -18,6 +19,15 @@
   width: 100px;
   height: 100px;
   background: red;
+}
+
+#box2:hover{
+  transition-duration: 1s;
+  box-shadow: inset;
+  background: #e97272;
+  padding: 10px;
+  margin: 20px;
+  transform: rotate(45deg);
 }
 
 /* Qs3. Using transform, skew box3 20deg along the x axis.*/

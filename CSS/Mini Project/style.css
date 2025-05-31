@@ -1,0 +1,14 @@
+.mainbox {
+    height: 500px;
+    width: auto;
+    background: green;
+}
+
+.logo {
+    height: 70px;
+    width: auto;
+    background: #000;
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+}
